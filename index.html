@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青春不散场</title>
+
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- COMPUTED REM -->
+    <script>
+        ~ function () {
+            function computed() {
+                var HTML = document.documentElement,
+                    deviceW = HTML.clientWidth,
+                    designW = 375,
+                    maxW = 750,
+                    ratio = deviceW / designW;
+                deviceW >= maxW ? ratio = maxW / designW : null;
+                HTML.style.fontSize = ratio * 100 + 'px';
+            }
+            computed();
+            window.addEventListener('resize', computed, false);
+        }();
+    </script>
+</head>
+
+<body>
+    <main class="mainBox">
+        <!-- 音乐 -->
+        <a href="javascript:;" class="musicBox move"></a>
+    <audio>
+            <source src="audio/music.mp3" type="aduio/mpeg">
+            <source src="audio/music.wav" type="aduio/wav">
+            <source src="audio/music.ogg" type="aduio/ogg">
+            <!-- 当前浏览器不兼容AUDIO（或者此处使用FLASH播放器播放） -->
+        </audio>
+        <audio src="audio/music.mp3" loop autoplay preload="none" id="musicAudio"></audio>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- PAGE 1 -->
+                <div class="swiper-slide page1">
+                    <div class="text1 ani"
+                    swiper-animate-effect="fadeIn " swiper-animate-duration="2s" 
+                    swiper-animate-delay="0.3s">
+                    <p >
+                       弹指一会间，一晃毕业多年
+                   </p>
+                </div>
+                <div class="text2 ani"swiper-animate-effect="fadeIn " swiper-animate-duration="2s" 
+                swiper-animate-delay="0.5s">
+                     <p >
+                       曾记否，毕业前，泪眼挥手相送
+                   </p>
+                </div>
+                <div class="text3 ani" swiper-animate-effect="fadeIn " swiper-animate-duration="2s" 
+                swiper-animate-delay="0.7s">
+                   <p >
+                       现如今，毕业后，记忆俨然朦胧
+                   </p>
+                    </div>
+                   
+                </div>
+
+                <!-- PAGE 2 -->
+                <div class="swiper-slide page2">
+                    <div class="text1 ani" swiper-animate-effect="fadeIn " swiper-animate-duration="2s" 
+                    swiper-animate-delay="0.3s">
+                    <p >
+                       感慨万千，物是人非。
+                   </p>
+                </div>
+                <div class="text2 ani" swiper-animate-effect="fadeIn " swiper-animate-duration="2s" 
+                swiper-animate-delay="0.5s">
+                     <p >
+                       环肥燕瘦者，如今为人妻为人母；
+                   </p>
+                </div>
+                <div class="text3 ani" swiper-animate-effect="fadeIn " swiper-animate-duration="2s" 
+                swiper-animate-delay="0.7s">
+                   <p >
+                       英俊倜傥者，如今为人夫为人父。
+                   </p>
+                    </div>
+                </div>
+
+                <!-- PAGE 3 -->
+                <div class="swiper-slide page3">
+                    <div class="photo ani"swiper-animate-effect="rollInDown" swiper-animate-duration="2s" 
+                    swiper-animate-delay="0s">
+                        <img src="image/3_1.jpg">
+                    </div>
+                    
+                    
+                    <div class="text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" 
+                    swiper-animate-delay="0s">
+                        <span>
+                            最好的我们
+                        </span>
+                        <p class="ani"swiper-animate-effect="zoomIn" swiper-animate-duration="2s" 
+                        swiper-animate-delay="0.8s">
+                            多少人就这么走散了之后再也没有这么聚过……
+                        </p>
+                    </div>
+
+                </div>
+                <!-- PAGE 4 -->
+                <div class="swiper-slide page4">
+                    <div class="text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" 
+                    swiper-animate-delay="0s">
+                        <p>
+                                毕业后，单纯、幼稚、迷茫、困惑、梦想，而后羽化。笑过，哭过；快乐过、痛苦过；爱过，迷惘过：唯独缺少了你的分享和倾诉。
+                        </p>
+                    </div>
+                        
+    
+                    </div>
+<!-- page5 -->
+<div class="swiper-slide page5">
+<img src="image/5_1_1.jpg" class="ani"swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+<img src="image/5_1_2.jpg"class="ani"swiper-animate-effect="fadeInLeft" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+<div class="text ani"swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+        <p>
+                曾经的毛头小伙，历练为淡定从容的成熟男；清纯靓丽的女大学生，修炼成优雅纯粹的知性女。眼前的你，还是那个他（她）么？　
+        </p>
+</div>
+
+</div>
+
+<!-- page6 -->
+<div class="swiper-slide page6">
+<img src="image/5_2_1.jpg" alt=""class="ani"swiper-animate-effect="flipInX" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+<img src="image/5_2_2.jpg" alt=""class="ani"swiper-animate-effect="flipInX" swiper-animate-duration="2s" 
+swiper-animate-delay="0.2s">
+<img src="image/5_2_3.jpg" alt=""class="ani"swiper-animate-effect="flipInX" swiper-animate-duration="2s" 
+swiper-animate-delay="0.8s">
+<img src="image/5_2_4.jpg" alt=""class="ani"swiper-animate-effect="flipInX" swiper-animate-duration="2s" 
+swiper-animate-delay="0.4s">
+<img src="image/5_2_5.jpg" alt=""class="ani"swiper-animate-effect="flipInX" swiper-animate-duration="2s" 
+swiper-animate-delay="0.6s">
+    </div>
+    <!-- page7 -->
+<div class="swiper-slide page7">
+<img src="image/5_4_1.jpg" alt=""class="ani"swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+<span class="ani"swiper-animate-effect="puffIn" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">致青春</span>
+<p class="ani"swiper-animate-effect="puffIn" swiper-animate-duration="2s" 
+swiper-animate-delay="1.4s">那些年 我们一起走过……</p>
+<img src="image/5_4_2.jpg" alt="" class="ani"swiper-animate-effect="fadeInLeft" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+<img src="image/5_4_3.jpg" alt="" class="ani"swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+<img src="image/5_4_4.jpg" alt="" class="ani"swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">
+    </div>
+    <!-- page8 -->
+<div class="swiper-slide page8">
+    <div class="kuang ani"swiper-animate-effect="bounceIn" swiper-animate-duration="2s" 
+    swiper-animate-delay="0s"></div>
+    <div class="imageBox" >
+    <img src="image/6_1_1.jpg" alt="" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="2s" 
+    swiper-animate-delay="0.3s">
+    <img src="image/6_1_2.jpg" alt="" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="2s" 
+    swiper-animate-delay="0.6s">
+    <span class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="2s" 
+    swiper-animate-delay="0s">青春纪念手册</span>
+   
+    <img src="image/6_1_3.jpg" alt="" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="2s" 
+    swiper-animate-delay="0.9s">
+    <img src="
+    image/6_1_4.jpg" alt="" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="2s" 
+    swiper-animate-delay="1.2s">
+    </div>
+
+    </div>
+    <!-- page9 -->
+    <div class="swiper-slide page9">
+        <div class="imgBox">
+            <div>
+        <div class="img1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.2s">
+        <img src="image/6_3_1.jpg" alt="">
+        </div>
+        
+        <div class="img2 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.2s">
+        <img src="image/6_3_2.jpg" alt="">
+        </div>
+        <div class="img3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.2s"> 
+        <img src="image/6_3_3.jpg" alt="">      
+        </div>
+        
+        <div class="text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.2s">
+        <p>是你的出现</p>
+        <p>惊醒了</p>
+        <p>我最好的年华</p>
+        </div>
+        </div>
+       
+    </div>
+    </div>
+ <!-- page10 -->
+ <div class="swiper-slide page10">
+     <div class="imgBox">
+            <div class="img1 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_1.jpg" alt=""></div>
+            <div class="img2 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_2.jpg" alt=""></div>
+            <div class="img3 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_3.jpg" alt=""></div>
+            <div class="img4 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_4.jpg" alt=""></div>
+            <div class="img5 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_5.jpg" alt=""></div>
+            <div class="img6 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_6.jpg" alt=""></div>
+            <div class="img7 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_7.jpg" alt=""></div>
+            <div class="img8 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_8.jpg" alt=""></div>
+            <div class="img9 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_9.jpg" alt=""></div>
+            <div class="img10 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_10.jpg" alt=""></div>
+            <div class="img11 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s"><img src="image/6_4_11.jpg" alt=""></div>
+            <div class="img12 ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" 
+            swiper-animate-delay="0s" ><img src="image/6_4_12.jpg" alt=""></div>
+
+     </div>
+      
+</div>
+ <!-- page11 -->
+ <div class="swiper-slide page11">
+     <img src="image/6_6_1.jpg" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" 
+     swiper-animate-delay="0.8s" >   
+</div>
+<!-- page12 -->
+<div class="swiper-slide page12">
+    <li style="transform: rotate(10deg)">
+<div class="img1 ani" swiper-animate-effect="rollInRight" swiper-animate-duration="3s" 
+ swiper-animate-delay="0s"><img src="image/6_7_1.jpg" alt=""></div>
+    </li>
+ <li style="transform: rotate(-10deg)">
+<div class="img2 ani" swiper-animate-effect="rollInRight" swiper-animate-duration="3s" 
+ swiper-animate-delay="1s"><img src="image/6_7_2.jpg" alt=""></div>
+ </li>
+ <li style="transform: rotate(10deg)">
+<div class="img3 ani" swiper-animate-effect="rollInRight" swiper-animate-duration="3s" 
+ swiper-animate-delay="2s"><img src="image/6_7_3.jpg" alt=""></div>s
+ </li>
+ 
+         
+   </div>
+   <!-- page13 -->
+   <div class="swiper-slide page13">
+        <div class="text1 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" 
+        swiper-animate-delay="0.6s">
+            <span>煽情少表，牛叉少吹，言归正传：</span>
+        </div>
+        <div class="text2 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" 
+        swiper-animate-delay="0.6s">
+            <p>兹定于2019年2月6日举行同学聚会，万望还在乎三年同窗情义的你，积极参加。</p>
+            <p>地点：待定——你骂千遍万遍嫌少 人骂半句一句嫌多的母校！</p>
+            <p>为了保证将此次聚会搞成安定团结和谐的盛会，特要求如下：</p>
+           <p>第一，为方便交流同学感情，避免晒幸福秀恩爱。</p>
+           <p>第二，只叙同窗情，取缔攀比炫富之风。</p>
+           <p>第三，以一颗平常心参加同学会，若是怀有“没事开开同学会，拆散一对是一对”之恶俗念头者，谨慎参会。</p>
+           <p>第四，费用：两天，暂定300元/人（非/家庭）。最终核算，多退少补。</p>
+           <p>第五，同学聚会，自愿原则，风险自担（如旧情复燃）。 </p>
+        </div>   
+          </div>
+<!-- page14 -->
+          <div class="swiper-slide page14">
+                
+<span class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" 
+swiper-animate-delay="0s">聚会邀请</span>
+<div class="form">
+        <input type="text" placeholder="姓名" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.4s">
+        <input type="text" placeholder="手机" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.6s">
+        <input type="text" placeholder="是否能来" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="1s" 
+        swiper-animate-delay="0.8s">
+        <input type="text" placeholder="来几人" class="ani"swiper-animate-effect="fadeIn" swiper-animate-duration="1s" 
+        swiper-animate-delay="1s"> 
+        <input type="button" value="提交参加" class="ani"swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" 
+        swiper-animate-delay="0.8s">
+</div>
+                 
+                  </div>
+
+
+            </div>
+        </div>
+         <!-- 滑动提示按钮 -->
+         <a href="javascript:;" class="previousTip"></a>
+    </main>
+
+    <!-- IMPORT JS -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.3.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
