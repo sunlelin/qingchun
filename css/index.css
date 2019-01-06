@@ -295,7 +295,9 @@ animation: previousTipMove .8s infinite both;
        
         top: .8rem;
     }
-  
+    .page5 .text{
+        bottom: 1rem;
+    }
 }
 /* page6 */
 .page6{
