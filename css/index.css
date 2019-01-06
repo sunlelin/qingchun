@@ -101,7 +101,7 @@ animation: previousTipMove .8s infinite both;
     color: #FFF;
     
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
 .page1 .text1,
 .page1 .text2,
 .page1 .text3{
@@ -127,15 +127,15 @@ animation: previousTipMove .8s infinite both;
 .page2 .text2,
 .page2 .text3{
     position: absolute;
-    bottom: 1.8rem;
-    left: .6rem;
+    bottom: 2.4rem;
+    left: .5rem;
 }
 .page2 .text2{
-    bottom: 1.2rem;
+    bottom: 1.8rem;
     
 }
 .page2 .text3{
-    bottom: 0.6rem;
+    bottom: 1.2rem;
 }
 .page2 .text1 p,
 .page2 .text2 p,
@@ -146,12 +146,12 @@ animation: previousTipMove .8s infinite both;
     color: #FFF;
     border:.01rem #FFF solid ;
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
 .page2 .text1,
 .page2 .text2,
 .page2 .text3{
     bottom: 2.2rem;
-    left: .6rem;
+    left: .5rem;
 }
 .page2 .text2{
     bottom: 1.6rem;
@@ -185,6 +185,7 @@ animation: previousTipMove .8s infinite both;
     
 
 }
+
 .page3 .text{
 
     position: absolute;
@@ -204,16 +205,23 @@ animation: previousTipMove .8s infinite both;
     
     
 }
+.page3 .text .kuang{
+    position: absolute;
+    left: .15rem;
+    top: .7rem;
+    width: 3rem;
+    border-top: #FFF solid .01rem;
+}
 .page3 .text p{
     margin: 0 .08rem;
     left: 0rem;
     top: .7rem;
     line-height: .4rem;
     font-size: .2rem;
-    border-top: #FFF solid .01rem;
+   
 }
 
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page3 .text{
         bottom: .7rem;
     }
@@ -242,7 +250,7 @@ animation: previousTipMove .8s infinite both;
     font-size: .15rem;
     
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page4 .text{
         bottom:3.3rem;
     }
@@ -269,7 +277,7 @@ animation: previousTipMove .8s infinite both;
 }
 .page5 .text{
     position: absolute;
-    bottom: 1rem;
+    bottom: 1.4rem;
     display: block;
     margin: 0 .3rem; 
     padding:  .2rem;
@@ -281,7 +289,7 @@ animation: previousTipMove .8s infinite both;
     line-height: .3rem;
 
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page5>img:nth-of-type(1),
     .page5>img:nth-of-type(2){
        
@@ -326,7 +334,7 @@ border: #FFF solid .02rem;
     width: 2.3rem;
     height: 1.8rem;
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
 .page6>img:nth-of-type(1),
 .page6>img:nth-of-type(2),
 .page6>img:nth-of-type(3),
@@ -401,7 +409,7 @@ border: #FFF solid .02rem;
     color: #FFF;
     
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page7>img:nth-of-type(1){
         top: .4rem;
         height: 1.5rem;
@@ -450,7 +458,7 @@ border: #FFF solid .02rem;
     position: absolute;
     top: 1rem;
     left: .15rem;
-    width: 3.35rem;
+    width: 3.41rem;
     height: 4.5rem;
     overflow: hidden;
    
@@ -483,9 +491,9 @@ top: 2.7rem;
     font-size: .25rem;
     background: #FFF;
     padding: .1rem .2rem;
-    width: 2.95rem;
+    width: 3.3rem;
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page8 .imageBox{
         top: .5rem;
         height: 4.5rem;
@@ -570,7 +578,7 @@ top: 2.7rem;
     
     
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page9 .imgBox .img3{
         top: 2.2rem;
         width: 3.2rem;
@@ -699,7 +707,7 @@ top: 2.7rem;
     margin-top: -1rem;
     margin-left: -.4rem;
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page10 .imgBox{
         width: 3.9rem;
         height: 5.2rem;
@@ -833,7 +841,7 @@ top: 2.7rem;
     margin-left: -.35rem;
     height: 2.5rem;
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page12 li .img1,
 .page12 li .img2,
 .page12 li .img3{
@@ -882,7 +890,7 @@ top: 2.7rem;
     line-height: .28rem;
     font-size: .15rem;
 }
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
 .page13 .text1,
 .page13 .text2{
     width: 3.75rem;
@@ -945,7 +953,7 @@ top: 2.7rem;
     border-radius: .04rem;
 }
 /* 在某些特定宽高的手机中，可能发生元素重叠，此时我们基于@media进行微调整 */
-@media all and (max-height:500px) {
+@media all and (max-height:480px) {
     .page14 span{
         top: .5rem;
         left: 1rem;
