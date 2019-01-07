@@ -45,7 +45,7 @@ margin-left: -.125rem;
 width: .25rem;
 height: .2rem;
 z-index: 99999;
-background: url('../image/arrow.png')no-repeat;
+background: url('http://pkxzupicv.bkt.clouddn.com/image/arrow.png')no-repeat;
 background-size: 100% 100%;
 animation: previousTipMove .8s infinite both;
 }
@@ -71,7 +71,7 @@ animation: previousTipMove .8s infinite both;
 /* ==PAGE1== */
 .page1 {
     position: relative;
-    background: url('../image/1.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/1.jpg')no-repeat;
     background-size: cover;
 }
 .page1 .text1,
@@ -120,7 +120,7 @@ animation: previousTipMove .8s infinite both;
 /* page2 */
 .page2 {
     position: relative;
-    background: url('../image/2.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/2.jpg')no-repeat;
     background-size: cover;
 }
 .page2 .text1,
@@ -164,7 +164,7 @@ animation: previousTipMove .8s infinite both;
 /* page3 */
 .page3{
     position: relative;
-    background: url('../image/3.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/3.jpg')no-repeat;
     background-size: cover;
 }
 .page3 .photo{
@@ -232,7 +232,7 @@ animation: previousTipMove .8s infinite both;
 /* page4 */
 .page4{
     position: relative;
-    background: url('../image//4.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image//4.jpg')no-repeat;
     background-size: cover;
 }
 .page4 .text{
@@ -259,7 +259,7 @@ animation: previousTipMove .8s infinite both;
 /* page5 */
 .page5{
     position: relative;
-    background: url('../image/5.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/5.jpg')no-repeat;
     background-size: cover;
 }
 .page5>img:nth-of-type(1),
@@ -302,7 +302,7 @@ animation: previousTipMove .8s infinite both;
 /* page6 */
 .page6{
     position: relative;
-    background: url('../image/5.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/5.jpg')no-repeat;
     background-size: cover;
 
 }
@@ -364,7 +364,7 @@ height: 1.4rem;
 /* page7 */
 .page7{
     position: relative;
-    background: url('../image/5.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/5.jpg')no-repeat;
     background-size: cover;
 }
 .page7>img:nth-of-type(1){
@@ -444,7 +444,7 @@ border: #FFF solid .02rem;
 /* page8 */
 .page8{
     position: relative;
-    background: url('../image/6.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/6.jpg')no-repeat;
     background-size: cover;
 }
 .page8 .kuang{
@@ -508,7 +508,7 @@ top: 2.7rem;
 /* page9 */
 .page9 {
     position: relative;
-    background: url('../image/6.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/6.jpg')no-repeat;
     background-size: cover;
 
 }
@@ -590,7 +590,7 @@ top: 2.7rem;
 /* page10 */
 .page10{
     position: relative;
-    background: url('../image/6.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/6.jpg')no-repeat;
     background-size: cover;
 }
 .page10 .imgBox{
@@ -774,7 +774,7 @@ top: 2.7rem;
 /* page11 */
 .page11{
     position: relative;
-    background: url('../image/6.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/6.jpg')no-repeat;
     background-size: cover;
 
 }
@@ -795,7 +795,7 @@ top: 2.7rem;
 /* page12 */
 .page12{
     position: relative;
-    background: url('../image/6.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/6.jpg')no-repeat;
     background-size: cover;
 }
 
@@ -863,7 +863,7 @@ top: 2.7rem;
 /* page13 */
 .page13{
     position: relative;
-    background: url('../image/3.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/3.jpg')no-repeat;
     background-size: cover;
 }
 .page13 .text1,
@@ -907,7 +907,7 @@ top: 2.7rem;
 /* page14 */
 .page14{
     position: relative;
-    background: url('../image/6.jpg')no-repeat;
+    background: url('http://pkxzupicv.bkt.clouddn.com/image/6.jpg')no-repeat;
     background-size: cover;
 }
 .page14 span{
